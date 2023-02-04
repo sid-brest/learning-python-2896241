@@ -33,3 +33,9 @@ print(func4(5))
 print(func4(5,5))
 print(func4(x=3, num=5))
 print(func5(3,45,5))
+
+def inc(a,b=1):
+    return(a+b)
+a=inc(1)
+a=inc(a,a)
+print(a)
