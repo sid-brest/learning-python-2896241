@@ -2,11 +2,23 @@
 # Example file for working with timedelta objects
 # LinkedIn Learning Python course by Joe Marini
 #
-
-
 from datetime import date
 from datetime import time
 from datetime import datetime
+from datetime import timedelta
+
+today = date.today()
+
+ # Option A:
+tomorrow1 = date.today()
+ # Option B:
+tomorrow2 = date(today.year,today.month,today.day+1)
+print(tomorrow1)
+print(tomorrow2)
+
+texpdate = date.today()
+if ((texpdate.today()).days<7):
+    print("password will expire soon!")
 
 
 # TODO: construct a basic timedelta and print it

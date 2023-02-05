@@ -5,6 +5,9 @@
 from datetime import date
 from datetime import time
 from datetime import datetime
+import calendar
+import datetime
+
 
 
 def main():
@@ -32,7 +35,16 @@ def main():
     t = datetime.time(datetime.now())
     print ("The current time is ", t)
 
- 
+    
+
+    now=datetime.now()
+    print(now.strftime("%d-%b-%Y %H:%M:%S"))
+
+    today=date.today()
+    days=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    print("Tomorrow will be "+days[(today.weekday()+1)%7])
+
+
 
   
 if __name__ == "__main__":
