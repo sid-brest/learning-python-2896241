@@ -1,0 +1,13 @@
+Total size: 8960 bytes
+
+challenge_solution.py
+challenge_start.py
+files_finished.py
+files_start.py
+newfile.txt
+ospathutils_finished.py
+ospathutils_start.py
+shell_finished.py
+shell_start.py
+testfile.txt
+testfile.txt.bak
